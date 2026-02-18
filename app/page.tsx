@@ -16,11 +16,11 @@ export default function Home() {
               manage your job search in one place.
             </p>
             <div className="flex flex-col items-center gap-4">
-              <Link href="/sign-up">
-                <Button size={"lg"} className="h-12 px-8 text-lg font-medium">
+              <Button asChild size="lg" className="h-12 px-8 text-lg font-medium">
+                <Link href="/sign-up">
                   Start for free <ArrowRightIcon className="ml-2" />
-                </Button>
-              </Link>
+                </Link>
+              </Button>
               <p className="text-sm text-muted-foreground">
                 Free forever. No credit card required.
               </p>
