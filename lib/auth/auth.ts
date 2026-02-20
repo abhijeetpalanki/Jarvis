@@ -29,6 +29,6 @@ export async function signOut() {
   });
 
   if (result.success) {
-    redirect("/signin");
+    redirect("/sign-in");
   }
 }
