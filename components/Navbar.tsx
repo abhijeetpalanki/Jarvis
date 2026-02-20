@@ -43,9 +43,11 @@ export default function Navbar() {
                     className="relative h-8 w-8 rounded-full"
                   >
                     <Avatar className="h-8 w-8">
+                    <Avatar className="h-8 w-8">
                       <AvatarFallback className="bg-primary text-white">
-                        {session.user.name[0].toUpperCase()}
+                        {session.user.name?.[0]?.toUpperCase() || "U"}
                       </AvatarFallback>
+                    </Avatar>
                     </Avatar>
                   </Button>
                 </DropdownMenuTrigger>
