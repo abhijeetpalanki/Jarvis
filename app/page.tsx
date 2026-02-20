@@ -1,4 +1,4 @@
-import ImageTabs from "@/components/ImageTabs";
+import ImageTabs from "@/components/image-tabs";
 import { Button } from "@/components/ui/button";
 import {
   ArrowRightIcon,
