@@ -133,7 +133,6 @@ export default function JobApplicationCard({
                   <ExternalLink className="h-3 w-3" />
                 </a>
               )}
-              )}
             </div>
             <div className="flex items-start gap-1">
               <DropdownMenu>
