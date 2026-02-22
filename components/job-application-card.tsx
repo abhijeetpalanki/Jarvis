@@ -125,11 +125,14 @@ export default function JobApplicationCard({
                 <a
                   href={job.jobUrl}
                   target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`Open job posting for ${job.company}`}
                   className="inline-flex items-center gap-1 text-xs text-primary hover:underline mt-1"
                   onClick={(e) => e.stopPropagation()}
                 >
                   <ExternalLink className="h-3 w-3" />
                 </a>
+              )}
               )}
             </div>
             <div className="flex items-start gap-1">
