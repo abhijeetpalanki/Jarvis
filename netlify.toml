@@ -1,2 +1,5 @@
 [[plugins]]
 package = "@netlify/plugin-nextjs"
+
+[build]
+command = "TURBOPACK=0 npm run build"
